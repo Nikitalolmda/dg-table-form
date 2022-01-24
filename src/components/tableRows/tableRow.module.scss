@@ -1,0 +1,37 @@
+.cell {
+    padding: 9px 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #868A8D;
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+
+    &:first-child {
+        border-left: 1px solid #EBEBEB;
+    }
+}
+
+.buttonsCell {
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    text-align: center;
+}
+
+.editButton,
+.removeButton {
+    padding: 9px 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.editButton {
+    color: #057AE3;
+}
+
+.removeButton {
+    color: #B0263D;
+}

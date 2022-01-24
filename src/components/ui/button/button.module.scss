@@ -1,0 +1,27 @@
+.button {
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    background-color: #1493FE;
+    cursor: pointer;
+    border: none;
+    padding: 5px 16px;
+
+    &:disabled {
+        background-color: #C2CBD1;
+        color: #FFFFFF;
+    }
+}
+
+.large {
+    font-weight: 700;
+    height: 42px;
+    border-radius: 4px;
+}
+
+.small {
+    font-weight: 400;
+    height: 24px;
+    border-radius: 2px;
+}

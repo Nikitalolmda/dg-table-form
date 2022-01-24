@@ -1,0 +1,26 @@
+.container {
+    max-width: 595px;
+    overflow: hidden;
+}
+
+.table {
+    width: 100%;
+    background-color: white;
+    border-collapse: separate;
+    border-bottom: 1px solid #EBEBEB;
+    border-spacing: 0;
+}
+
+.thead {
+    background-color: #0A508B;
+    height: 30px;
+}
+
+.th {
+    padding: 5px 0 5px 12px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: start;
+    color: #E5E5E5;
+}

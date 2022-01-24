@@ -1,0 +1,24 @@
+.wrap {
+  flex: 1 1 auto;
+  padding: 0 30px 24px 30px;
+}
+
+.container {
+  @media (max-width: 1110px) {
+    flex-wrap: wrap;
+  }
+}
+
+.input {
+  flex: 1 1 auto;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  flex: 1 0 auto;
+  margin-bottom: 20px;
+}
+
+.button {
+  flex: 5 1 auto;
+}
